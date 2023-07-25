@@ -1,6 +1,3 @@
 module.exports = {
-  preset: 'react-native',
-  transformIgnorePatterns: [
-    'node_modules/(?!(react-native|react-native-windows|@react-native|@react-native-windows)/)',
-  ],
+  preset: '@rnx-kit/jest-preset',
 };
